@@ -17,22 +17,36 @@ export default function HomePage() {
         <div className="relative container mx-auto px-4 py-20 lg:py-32">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
-              <div className="space-y-4">
-                <h1 className="text-4xl lg:text-6xl font-bold leading-tight text-quicksand">
-                  VERIDIAN
-                  <span className="block text-mule-fawn">CRAFT TECH</span>
-                </h1>
-                <p className="text-xl lg:text-2xl text-quicksand font-medium">INNOVATE • ENGINEER • ACHIEVE</p>
+              <div className="space-y-6">
+                {/* Logo */}
+                {/* <div className="flex justify-center lg:justify-start">
+                  <Image
+                    src="/images/veridian-craft-logo.png"
+                    alt="Veridian Craft Tech Logo"
+                    width={300}
+                    height={360}
+                    className="w-64 h-auto lg:w-80"
+                    priority
+                  />
+                </div> */}
+
+                <div className="text-center lg:text-left">
+                  <h1 className="text-4xl lg:text-6xl font-bold leading-tight text-quicksand">
+                    VERIDIAN
+                    <span className="block text-mule-fawn">CRAFT TECH</span>
+                  </h1>
+                  <p className="text-xl lg:text-2xl text-quicksand font-medium mt-4">INNOVATE • ENGINEER • ACHIEVE</p>
+                </div>
               </div>
 
-              <p className="text-lg text-gunsmoke leading-relaxed max-w-xl">
+              <p className="text-lg text-gunsmoke leading-relaxed max-w-xl text-center lg:text-left">
                 We are a dedicated team committed to delivering top-notch retractable solutions. With the expertise of
                 our engineers, sales and marketing professionals, alongside our high-quality production and site
                 services, we blend innovation, durability, and design to elevate both outdoor living and commercial
                 spaces.
               </p>
 
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <Button asChild size="lg" className="bg-mule-fawn hover:bg-soya-bean text-white">
                   <Link href="/services">
                     Explore Services <ArrowRight className="ml-2 h-5 w-5" />
@@ -42,7 +56,7 @@ export default function HomePage() {
                   asChild
                   variant="outline"
                   size="lg"
-                  className="border-quicksand text-quicksand hover:bg-quicksand hover:text-woodsmoke"
+                  className="border-quicksand text-quicksand bg-black/20 hover:bg-quicksand hover:text-woodsmoke"
                 >
                   <Link href="/contact">Contact Us</Link>
                 </Button>
@@ -51,10 +65,10 @@ export default function HomePage() {
 
             <div className="relative">
               <Image
-                src="/placeholder.svg?height=500&width=600"
+                src="/images/veridian (21).jpg"
                 alt="Retractable roofing solutions"
-                width={600}
-                height={500}
+                width={700}
+                height={900}
                 className="rounded-lg shadow-2xl"
               />
             </div>
@@ -125,32 +139,35 @@ export default function HomePage() {
               {
                 title: "Soft Top Fabric Roof",
                 description: "Flexible outdoor living with sleek retractable fabric roofs",
-                image: "/placeholder.svg?height=250&width=400",
+                image: "/images/softtoproofs.png",
+                width: 600,
+                height: 400,
+                
               },
               {
                 title: "Hard Top Roofs",
                 description: "Polycarbonate roofing solutions with UV resistance and durability",
-                image: "/placeholder.svg?height=250&width=400",
+                image: "/images/hardtop.jpg",
               },
               {
                 title: "Retractable Pergola",
                 description: "Stylish, adjustable shade and weather protection systems",
-                image: "/placeholder.svg?height=250&width=400",
+                image: "/images/retractablepergola.png",
               },
               {
                 title: "Tensile Structures",
                 description: "Custom-designed membrane structures with architectural elegance",
-                image: "/placeholder.svg?height=250&width=400",
+                image: "/images/tensile.png",
               },
               {
                 title: "Sports Sheds",
                 description: "Durable metal roofing and shed solutions for all applications",
-                image: "/placeholder.svg?height=250&width=400",
+                image: "/images/sportsheds.png",
               },
               {
                 title: "Skylight Systems",
                 description: "Enhanced natural lighting with weather-resistant skylights",
-                image: "/placeholder.svg?height=250&width=400",
+                image: "/images/skylines.png",
               },
             ].map((service, index) => (
               <Card

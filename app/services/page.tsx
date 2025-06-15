@@ -11,50 +11,57 @@ export default function ServicesPage() {
       title: "Soft Top Fabric Roof",
       description:
         "Experience flexible outdoor living with our sleek and modern retractable fabric roof. Designed to provide shade and protection when you need it, and open skies when you don't, these systems are perfect for patios, restaurants, and terraces.",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/images/softtoproofs.png?height=300&width=500",
       features: ["Retractable design", "Weather resistant", "UV protection", "Easy operation"],
     },
     {
       title: "Hard Top Roofs",
       description:
         "Enjoy natural light without compromising on strength or weather protection. Our polycarbonate roofing solutions are lightweight, UV-resistant, and ideal for areas requiring transparency and durability, such as walkways, balconies, and skylights.",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/images/hardtoproofs.png?height=300&width=500",
       features: ["Polycarbonate material", "UV-resistant", "Lightweight", "Transparent design"],
     },
     {
       title: "Retractable Pergola",
       description:
         "Our retractable pergolas offer stylish, adjustable shade and weather protection, perfect for patios, terraces, and outdoor spaces—combining comfort, functionality, and modern design for year-round usability.",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/images/retractablepergola.png?height=300&width=500",
       features: ["Adjustable shade", "Weather protection", "Modern design", "Year-round use"],
     },
     {
       title: "Tensile Structures",
       description:
         "Add a touch of architectural elegance with our custom-designed tensile membrane structures. These fabric-based solutions offer excellent weather resistance, long life, and eye-catching aesthetics for large spaces like event venues, sports arenas, and courtyards.",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/images/tensile.png?height=300&width=500",
       features: ["Custom design", "Weather resistant", "Long lasting", "Architectural elegance"],
     },
     {
       title: "Sports Sheds",
       description:
         "Crafted for durability and resilience, our metal roofing and shed solutions are perfect for both residential and commercial applications. We offer a range of designs and finishes to meet your structural and aesthetic needs, ensuring protection and performance throughout the year.",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/images/sportsheds.png?height=300&width=500",
       features: ["Metal construction", "Durable design", "Multiple finishes", "All-weather protection"],
     },
     {
       title: "Skylight",
       description:
         "We provide expertly crafted skylight solutions that enhance natural lighting, improve energy efficiency, and add elegance to residential and commercial spaces—designed for durability, weather resistance, and aesthetic appeal.",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/images/skylines.png?height=300&width=500",
       features: ["Natural lighting", "Energy efficient", "Weather resistant", "Elegant design"],
     },
     {
       title: "Retractable Sitting System",
       description:
         "Maximize space and style with our retractable seating systems – smart, space-saving solutions designed for comfort and flexibility. Ideal for indoor and outdoor areas needing adaptable seating.",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/images/sitting.png?height=300&width=500",
       features: ["Space-saving", "Flexible design", "Comfortable seating", "Indoor/outdoor use"],
+    },
+    {
+      title: "Retractable Gate System",
+      description:
+        "Enhance security and convenience with our retractable gate systems – sleek, motorized gates operated effortlessly with the push of a button. Perfect for homes, office buildings, and commercial spaces.",
+      image: "/images/retractable-gate.png?height=300&width=500",
+      features: ["Remote-controlled", "Space-efficient", "Modern design", "Ideal for residential and commercial use"],
     },
   ]
 

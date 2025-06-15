@@ -54,16 +54,17 @@ const config: Config = {
           foreground: "hsl(var(--card-foreground))",
         },
         // Custom Veridian Craft colors
-        quicksand: "#b69d8a",
-        woodsmoke: "#141419",
-        "soya-bean": "#62574e",
-        merlin: "#3a332d",
-        gunsmoke: "#7c8484",
-        jumbo: "#7c7c84",
-        "cape-cod": "#444c4c",
-        "mule-fawn": "#d18f48",
-        abbey: "#44444c",
-        "outer-space": "#2c3434",
+        
+        quicksand: "#d0b182",      // replaced (was #b69d8a)
+        woodsmoke: "#151618",      // replaced (was #141419)
+        "soya-bean": "#9e6f4c",    // replaced (was #62574e)
+        merlin: "#22201e",         // replaced (was #3a332d)
+        gunsmoke: "#7c8484",       // unchanged
+        jumbo: "#7c7c84",          // unchanged
+        "cape-cod": "#cbccca",     // replaced (was #444c4c)
+        "mule-fawn": "#d18f48",    // unchanged
+        abbey: "#d2cabd",          // replaced (was #44444c)
+        "outer-space": "#2c3434"   // unchanged
       },
       borderRadius: {
         lg: "var(--radius)",

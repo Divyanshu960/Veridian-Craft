@@ -48,7 +48,7 @@ export default function AboutPage() {
 
             <div className="relative">
               <Image
-                src="/placeholder.svg?height=500&width=600"
+                src="/images/veridian (9).jpg"
                 alt="Veridian Craft team at work"
                 width={600}
                 height={500}

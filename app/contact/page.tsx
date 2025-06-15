@@ -133,7 +133,7 @@ export default function ContactPage() {
                         <SelectTrigger className="bg-outer-space border-cape-cod text-gunsmoke">
                           <SelectValue placeholder="Select a service" />
                         </SelectTrigger>
-                        <SelectContent className="bg-outer-space border-cape-cod">
+                        <SelectContent className="bg-outer-space border-cape-cod text-gunsmoke">
                           <SelectItem value="soft-top-fabric">Soft Top Fabric Roof</SelectItem>
                           <SelectItem value="hard-top-roofs">Hard Top Roofs</SelectItem>
                           <SelectItem value="retractable-pergola">Retractable Pergola</SelectItem>

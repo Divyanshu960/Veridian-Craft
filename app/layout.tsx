@@ -10,7 +10,6 @@ export const metadata: Metadata = {
   description:
     "Premier experts in customized roofing solutions and retractable structures. We specialize in pergolas, polycarbonate roofs, tensile structures, and more.",
   keywords: "retractable roofing, pergola, polycarbonate roof, tensile structures, skylight, outdoor solutions",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({

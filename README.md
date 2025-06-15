@@ -1,4 +1,4 @@
-# Veridian Craft Tech Website
+![image](https://github.com/user-attachments/assets/a4a948f7-725c-4ae9-ae08-13a75121bf2a)# Veridian Craft Tech Website
 
 <div align="center">
   <img src="public/images/veridian-craft-logo.png" alt="Veridian Craft Tech Logo" width="200"/>
@@ -61,13 +61,13 @@ Veridian Craft Tech is a premier company specializing in innovative retractable 
 ## 🖥️ Screenshots
 
 ### Homepage
-![Homepage](https://via.placeholder.com/800x400/141419/b69d8a?text=Homepage+Preview)
+![Homepage](https://github.com/user-attachments/assets/3a3f365f-9074-4329-bb84-67f6d03fe6d2?text=Homepage+Preview)
 
 ### Services Page
-![Services](https://via.placeholder.com/800x400/2c3434/84542e?text=Services+Page)
+![Services](https://github.com/user-attachments/assets/196c55f8-13b4-4fd7-a8fc-f05a5c02b8ba?text=Services+Page)
 
 ### Contact Page
-![Contact](https://via.placeholder.com/800x400/3a332d/b69d8a?text=Contact+Page)
+![Contact](https://github.com/user-attachments/assets/71debf19-dc38-4761-892e-4ab1b29caf77?text=Contact+Page)
 
 ---
 
@@ -198,7 +198,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   <p><strong>Built with ❤️ for Veridian Craft Tech</strong></p>
   <p><em>INNOVATE • ENGINEER • ACHIEVE</em></p>
 </div>
-\`\`\`
 
 ---
 

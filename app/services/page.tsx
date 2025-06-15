@@ -18,7 +18,7 @@ export default function ServicesPage() {
       title: "Hard Top Roofs",
       description:
         "Enjoy natural light without compromising on strength or weather protection. Our polycarbonate roofing solutions are lightweight, UV-resistant, and ideal for areas requiring transparency and durability, such as walkways, balconies, and skylights.",
-      image: "/images/hardtoproofs.png?height=300&width=500",
+      image: "/images/hardtop.jpg?height=300&width=500",
       features: ["Polycarbonate material", "UV-resistant", "Lightweight", "Transparent design"],
     },
     {
@@ -60,7 +60,7 @@ export default function ServicesPage() {
       title: "Retractable Gate System",
       description:
         "Enhance security and convenience with our retractable gate systems – sleek, motorized gates operated effortlessly with the push of a button. Perfect for homes, office buildings, and commercial spaces.",
-      image: "/images/retractable-gate.png?height=300&width=500",
+      image: "/images/doors.png?height=300&width=500",
       features: ["Remote-controlled", "Space-efficient", "Modern design", "Ideal for residential and commercial use"],
     },
   ]

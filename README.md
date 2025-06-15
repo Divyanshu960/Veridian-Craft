@@ -118,27 +118,6 @@ Veridian Craft Tech is a premier company specializing in innovative retractable 
 
 ---
 
-## 🎨 Color Palette
-
-The website uses a sophisticated dark color scheme:
-
-\`\`\`css
-:root {
-  --quicksand: #b69d8a;    /* Primary accent */
-  --woodsmoke: #141419;    /* Background */
-  --soya-bean: #62574e;    /* Secondary */
-  --merlin: #3a332d;       /* Card backgrounds */
-  --gunsmoke: #7c8484;     /* Text */
-  --jumbo: #7c7c84;        /* Muted text */
-  --cape-cod: #444c4c;     /* Borders */
-  --mule-fawn: #84542e;    /* CTA buttons */
-  --abbey: #44444c;        /* Subtle backgrounds */
-  --outer-space: #2c3434;  /* Section backgrounds */
-}
-\`\`\`
-
----
-
 ## 🚀 Deployment
 
 ### Deploy to Vercel (Recommended)

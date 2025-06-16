@@ -1,7 +1,7 @@
 "use client"
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Phone, Mail, MapPin, Clock, CheckCircle, Facebook, Instagram, Linkedin, Youtube } from "lucide-react"
+import { Phone, Mail, MapPin, Clock, CheckCircle, Facebook, Instagram, Linkedin, Youtube , MessageCircle,} from "lucide-react"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 
@@ -191,19 +191,26 @@ export default function ContactPage() {
                       </a>
                     </div>
 
-                    <div className="mt-6 p-4 bg-mule-fawn/10 rounded-lg border border-mule-fawn/20">
-                      <p className="text-sm text-gunsmoke">
-                        <strong className="text-quicksand">Website:</strong>{" "}
-                        <a
-                          href="https://www.veridiancraft.com"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-quicksand hover:text-mule-fawn transition-colors"
-                        >
-                          www.veridiancraft.com
-                        </a>
-                      </p>
+                    {/* WhatsApp Chat */}
+                    <div className="mt-6">
+                      <a
+                        href="https://wa.me/919369923536?text=Hello%20Veridian%20Craft%20Tech!%20I'm%20interested%20in%20your%20retractable%20roofing%20solutions."
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-3 p-4 bg-green-600/20 rounded-lg border border-green-600/30 hover:border-green-500 transition-colors group w-full"
+                      >
+                        <div className="w-12 h-12 bg-green-600/20 rounded-lg flex items-center justify-center">
+                          <MessageCircle className="h-6 w-6 text-green-400" />
+                        </div>
+                        <div className="text-left flex-1">
+                          <h4 className="font-semibold text-green-400 group-hover:text-green-300 transition-colors">
+                            WhatsApp Chat
+                          </h4>
+                          <p className="text-sm text-gunsmoke">Get instant support and quick quotes</p>
+                        </div>
+                      </a>
                     </div>
+
                   </div>
                 </CardContent>
               </Card>

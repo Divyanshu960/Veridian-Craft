@@ -64,7 +64,8 @@ const config: Config = {
         "cape-cod": "#cbccca",     // replaced (was #444c4c)
         "mule-fawn": "#d18f48",    // unchanged
         abbey: "#d2cabd",          // replaced (was #44444c)
-        "outer-space": "#2c3434"   // unchanged
+        "outer-space": "#151618",  // REPLACED was (#2c3434)
+        "white": "#e2e3e5"         // added
       },
       borderRadius: {
         lg: "var(--radius)",

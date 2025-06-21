@@ -48,7 +48,7 @@ export default function AboutPage() {
 
             <div className="relative">
               <Image
-                src="/images/veridian (9).jpg"
+                src="/images/tensile/home.jpg"
                 alt="Veridian Craft team at work"
                 width={600}
                 height={500}

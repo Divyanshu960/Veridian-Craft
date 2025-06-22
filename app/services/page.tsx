@@ -225,7 +225,7 @@ export default function ServicesPage() {
           alt: "Retractable Seating - Mechanism Detail",
         },
       ],
-      features: ["Remote-controlled", "Space-efficient", "Modern design", "Ideal for residential and commercial use"],
+      features: ["Remote-controlled", "Space-efficient", "Modern design", "Versatile application"],
     },
     {
       title: "Skylight",

@@ -184,10 +184,24 @@ export default function HomePage() {
                 description: "Enhanced natural lighting with weather-resistant skylights",
                 image: "/images/skyline/1.png",
               },
+              {
+                title: "Retractable Gates",
+                description: "Modern, space-saving door systems with sleek profiles and smooth operation",
+                image: "/images/door/3.png",
+                width: 600,
+                height: 400,
+              },
+              {
+                title: "Retractable Sitting",
+                description: "Customizable retractable or fixed bench solutions to maximize comfort and space",
+                image: "/images/sitting/1.png",
+                width: 600,
+                height: 400,
+              },
             ].map((service, index) => (
               <Card
                 key={index}
-                className="overflow-hidden hover:shadow-lg transition-shadow bg-outer-space border-cape-cod"
+                className="overflow-hidden hover:shadow-lg transition-shadow bg-merlin border-cape-cod"
               >
                 <Image
                   src={service.image || "/placeholder.svg"}

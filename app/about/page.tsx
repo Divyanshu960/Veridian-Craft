@@ -10,11 +10,11 @@ export default function AboutPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-woodsmoke to-merlin text-white py-20">
+      <section className="bg-jumbo text-white py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6 text-quicksand">About Veridian Craft</h1>
-            <p className="text-xl text-gunsmoke leading-relaxed">
+            <p className="text-xl text-white leading-relaxed">
               At Veridian Craft, we specialise in providing innovative and high-quality retractable roofing and sitting
               solutions tailored to meet your unique outdoor and architectural needs.
             </p>
@@ -27,7 +27,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
             <div>
-              <h2 className="text-3xl lg:text-4xl font-bold text-quicksand mb-6">Our Story</h2>
+              <h2 className="text-3xl lg:text-4xl font-bold text-mule-fawn mb-6">Our Story</h2>
               <div className="space-y-6 text-lg text-gunsmoke leading-relaxed">
                 <p>
                   Whether you're enhancing your home, business, or commercial space, our range of products combines
@@ -48,7 +48,7 @@ export default function AboutPage() {
 
             <div className="relative">
               <Image
-                src="/images/tensile/home.jpg"
+                src="/images/tensilestructure/6.jpg"
                 alt="Veridian Craft team at work"
                 width={600}
                 height={500}
@@ -59,7 +59,7 @@ export default function AboutPage() {
 
           {/* Values Section */}
           <div className="mb-20">
-            <h2 className="text-3xl lg:text-4xl font-bold text-quicksand text-center mb-12">Our Core Values</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold text-mule-fawn text-center mb-12">Our Core Values</h2>
 
             <div className="grid md:grid-cols-3 gap-8">
               <Card className="border-cape-cod shadow-lg text-center bg-merlin">
@@ -106,7 +106,7 @@ export default function AboutPage() {
           {/* Team Section */}
           <div className="bg-merlin rounded-2xl p-12 border border-cape-cod">
             <div className="text-center mb-12">
-              <h2 className="text-3xl lg:text-4xl font-bold text-quicksand mb-4">Our Expert Team</h2>
+              <h2 className="text-3xl lg:text-4xl font-bold text-mule-fawn mb-4">Our Expert Team</h2>
               <p className="text-lg text-gunsmoke max-w-2xl mx-auto">
                 A dedicated team of professionals committed to excellence in every project
               </p>

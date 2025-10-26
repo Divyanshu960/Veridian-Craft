@@ -103,15 +103,15 @@ export default function ServicesPage() {
         "Experience flexible outdoor living with our sleek and modern retractable fabric roof. Designed to provide shade and protection when you need it, and open skies when you don't, these systems are perfect for patios, restaurants, and terraces.",
       images: [
         {
-          src: "/images/softtoproof/3.png?height=320&width=500&text=Soft+Top+Fabric+Roof+1",
+          src: "/images/softtoproof/softtoproof (1).jpg?height=320&width=500&text=Soft+Top+Fabric+Roof+1",
           alt: "Soft Top Fabric Roof - Retracted Position",
         },
         {
-          src: "/images/softtoproof/2.jpg?height=320&width=500&text=Soft+Top+Fabric+Roof+2",
+          src: "/images/softtoproof/softtoproof (2).jpg?height=320&width=500&text=Soft+Top+Fabric+Roof+2",
           alt: "Soft Top Fabric Roof - Extended Position",
         },
         {
-          src: "/images/softtoproof/4.png?height=320&width=500&text=Soft+Top+Fabric+Roof+3",
+          src: "/images/softtoproof/softtoproof (3).jpg?height=320&width=500&text=Soft+Top+Fabric+Roof+3",
           alt: "Soft Top Fabric Roof - Installation View",
         },
       ],
@@ -123,15 +123,15 @@ export default function ServicesPage() {
         "Enjoy natural light without compromising on strength or weather protection. Our polycarbonate roofing solutions are lightweight, UV-resistant, and ideal for areas requiring transparency and durability, such as walkways, balconies, and skylights.",
       images: [
         {
-          src: "/images/hardtoproof/1.jpg?height=320&width=500&text=Hard+Top+Polycarbonate+1",
+          src: "/images/hardtoproof/hardtoproof (8).jpg?height=320&width=500&text=Hard+Top+Polycarbonate+1",
           alt: "Hard Top Polycarbonate Roof - Clear Panels",
         },
         {
-          src: "/images/hardtoproof/3.jpg?height=320&width=500&text=Hard+Top+Polycarbonate+2",
+          src: "/images/hardtoproof/hardtoproof (9).jpg?height=320&width=500&text=Hard+Top+Polycarbonate+2",
           alt: "Hard Top Polycarbonate Roof - Tinted Panels",
         },
         {
-          src: "/images/hardtoproof/2.png?height=320&width=500&text=Hard+Top+Polycarbonate+3",
+          src: "/images/hardtoproof/hardtoproof (10).jpg?height=320&width=500&text=Hard+Top+Polycarbonate+3",
           alt: "Hard Top Polycarbonate Roof - Installation Process",
         },
       ],
@@ -143,15 +143,15 @@ export default function ServicesPage() {
         "Our retractable pergolas offer stylish, adjustable shade and weather protection, perfect for patios, terraces, and outdoor spaces—combining comfort, functionality, and modern design for year-round usability.",
       images: [
         {
-          src: "/images/retractablepergola/1.jpeg?height=320&width=500&text=Retractable+Pergola+1",
+          src: "/images/retractablepergola/retractablepergola (1).jpeg?height=320&width=500&text=Retractable+Pergola+1",
           alt: "Retractable Pergola - Open Configuration",
         },
         {
-          src: "/images/retractablepergola/3.jpg?height=320&width=500&text=Retractable+Pergola+3",
+          src: "/images/retractablepergola/retractablepergola (1).png?height=320&width=500&text=Retractable+Pergola+3",
           alt: "Retractable Pergola - Side View",
         },
         {
-          src: "/images/retractablepergola/2.png?height=320&width=500&text=Retractable+Pergola+2",
+          src: "/images/retractablepergola/retractablepergola (1).jpg?height=320&width=500&text=Retractable+Pergola+2",
           alt: "Retractable Pergola - Closed Configuration",
         },
         
@@ -159,28 +159,54 @@ export default function ServicesPage() {
       features: ["Adjustable shade", "Weather protection", "Modern design", "Year-round use"],
     },
     {
+  title: "Fixed Pergola System",
+  description:
+    "Redefine outdoor living with our fixed pergola systems – a perfect blend of architectural elegance and durability, designed to provide year-round shelter and aesthetic appeal for patios, terraces, and garden areas.",
+  images: [
+    {
+      src: "/images/fixedpergola/fixedpergola (5).jpg?height=320&width=500&text=Fixed+Pergola+1",
+      alt: "Fixed Pergola - Aluminum Frame",
+    },
+    {
+      src: "/images/fixedpergola/fixedpergola (2).jpg?height=320&width=500&text=Fixed+Pergola+2",
+      alt: "Fixed Pergola - Outdoor Lounge Area",
+    },
+    {
+      src: "/images/fixedpergola/fixedpergola (3).jpg?height=320&width=500&text=Fixed+Pergola+3",
+      alt: "Fixed Pergola - Modern Backyard Design",
+    },
+  ],
+  features: [
+    "Durable aluminum or steel construction",
+    "Weather-resistant powder coating",
+    "Customizable roof slats and lighting options",
+    "Permanent installation for year-round use",
+  ],
+},
+
+    {
       title: "Tensile Structures",
       description:
         "Add a touch of architectural elegance with our custom-designed tensile membrane structures. These fabric-based solutions offer excellent weather resistance, long life, and eye-catching aesthetics for large spaces like event venues, sports arenas, and courtyards.",
       images: [
         {
-          src: "/images/tensile/6.jpg?height=320&width=500&text=Tensile+Structure+1",
+          src: "/images/tensilestructure/6.jpg?height=320&width=500&text=Tensile+Structure+1",
           alt: "Tensile Structure - Curved Design",
         },
         {
-          src: "/images/tensile/2.jpg?height=320&width=500&text=Tensile+Structure+2",
+          src: "/images/tensilestructure/2.jpg?height=320&width=500&text=Tensile+Structure+2",
           alt: "Tensile Structure - Angular Design",
         },
         {
-          src: "/images/tensile/3.jpg?height=320&width=500&text=Tensile+Structure+3",
+          src: "/images/tensilestructure/3.jpg?height=320&width=500&text=Tensile+Structure+3",
           alt: "Tensile Structure - Large Span Installation",
         },
         {
-          src: "/images/tensile/4.jpg?height=320&width=500&text=Tensile+Structure+4",
+          src: "/images/tensilestructure/4.jpg?height=320&width=500&text=Tensile+Structure+4",
           alt: "Tensile Structure - Large Span Installation",
         },
         {
-          src: "/images/tensile/5.jpg?height=320&width=500&text=Tensile+Structure+5",
+          src: "/images/tensilestructure/5.jpg?height=320&width=500&text=Tensile+Structure+5",
           alt: "Tensile Structure - Large Span Installation",
         },
         
@@ -193,17 +219,26 @@ export default function ServicesPage() {
         "Crafted for durability and resilience, our metal roofing and shed solutions are perfect for both residential and commercial applications. We offer a range of designs and finishes to meet your structural and aesthetic needs, ensuring protection and performance throughout the year.",
       images: [
         {
-          src: "/images/sportshed/1.png?text=Sports+Shed+1",
+          src: "/images/shed/shed (1).png?text=Sports+Shed+1",
           alt: "Sports Shed - Metal Roofing",
         },
         {
-          src: "/images/sportshed/2.png?text=Sports+Shed+2",
+          src: "/images/shed/shed (10).jpg?text=Sports+Shed+2",
           alt: "Sports Shed - Interior View",
         },
-        // {
-        //   src: "/images/sportshed/4.webp?text=Sports+Shed+3",
-        //   alt: "Sports Shed - Exterior Design",
-        // },
+        {
+          src: "/images/shed/shed (16).jpg?text=Sports+Shed+1",
+          alt: "Sports Shed - Metal Roofing",
+        },
+        {
+          src: "/images/shed/shed (1).webp?text=Sports+Shed+2",
+          alt: "Sports Shed - Interior View",
+        },
+        {
+          src: "/images/shed/shed (2).jpg?text=Sports+Shed+1",
+          alt: "Sports Shed - Metal Roofing",
+        },
+        
       ],
       features: ["Metal construction", "Durable design", "Multiple finishes", "All-weather protection"],
     },
@@ -213,15 +248,15 @@ export default function ServicesPage() {
         "Enhance security and convenience with our retractable gate systems – sleek, motorized gates operated effortlessly with the push of a button. Perfect for homes, office buildings, and commercial spaces.",
       images: [
         {
-          src: "/images/door/1.png?height=320&width=500&text=Retractable+Seating+1",
-          alt: "Retractable Seating - Extended Position",
-        },
-        {
-          src: "/images/door/2.png?height=320&width=500&text=Retractable+Seating+2",
+          src: "/images/door/door (3).png?height=320&width=500&text=Retractable+Seating+2",
           alt: "Retractable Seating - Retracted Position",
         },
         {
-          src: "/images/door/3.png?height=320&width=500&text=Retractable+Seating+3",
+          src: "/images/door/door (1).jpg?height=320&width=500&text=Retractable+Seating+1",
+          alt: "Retractable Seating - Extended Position",
+        },
+        {
+          src: "/images/door/door (1).png?height=320&width=500&text=Retractable+Seating+3",
           alt: "Retractable Seating - Mechanism Detail",
         },
       ],
@@ -233,17 +268,18 @@ export default function ServicesPage() {
         "We provide expertly crafted skylight solutions that enhance natural lighting, improve energy efficiency, and add elegance to residential and commercial spaces—designed for durability, weather resistance, and aesthetic appeal.",
       images: [
         {
-          src: "/images/skyline/1.png?height=320&width=500&text=Skylight+1",
+          src: "/images/skylightsystem/skylight (3).jpg?height=320&width=500&text=Skylight+1",
           alt: "Skylight - Fixed Installation",
         },
-        // {
-        //   src: "/placeholder.svg?height=320&width=500&text=Skylight+2",
-        //   alt: "Skylight - Motorized Opening",
-        // },
-        // {
-        //   src: "/placeholder.svg?height=320&width=500&text=Skylight+3",
-        //   alt: "Skylight - Interior Light Effect",
-        // },
+        {
+          src: "/images/skylightsystem/skylight (5).jpg?height=320&width=500&text=Skylight+1",
+          alt: "Skylight - Fixed Installation",
+        },
+        {
+          src: "/images/skylightsystem/skylight (4).jpg?height=320&width=500&text=Skylight+1",
+          alt: "Skylight - Fixed Installation",
+        },
+        
       ],
       features: ["Natural lighting", "Energy efficient", "Weather resistant", "Elegant design"],
     },
@@ -253,20 +289,97 @@ export default function ServicesPage() {
         "Maximize space and style with our retractable seating systems – smart, space-saving solutions designed for comfort and flexibility. Ideal for indoor and outdoor areas needing adaptable seating.",
       images: [
         {
-          src: "/images/sitting/1.png?height=320&width=500&text=Retractable+Seating+1",
+          src: "/images/sitting/sitting (1).jpg?height=320&width=500&text=Retractable+Seating+1",
           alt: "Retractable Seating - Extended Position",
         },
-        // {
-        //   src: "/images/sitting/1.png?height=320&width=500&text=Retractable+Seating+2",
-        //   alt: "Retractable Seating - Retracted Position",
-        // },
-        // {
-        //   src: "/images/sitting/1.png?height=320&width=500&text=Retractable+Seating+3",
-        //   alt: "Retractable Seating - Mechanism Detail",
-        // },
+        {
+          src: "/images/sitting/sitting (1).jpeg?height=320&width=500&text=Retractable+Seating+1",
+          alt: "Retractable Seating - Extended Position",
+        },
+        {
+          src: "/images/sitting/sitting (2).jpeg?height=320&width=500&text=Retractable+Seating+1",
+          alt: "Retractable Seating - Extended Position",
+        },
+        
       ],
       features: ["Space-saving", "Flexible design", "Comfortable seating", "Indoor/outdoor use"],
     },
+    {
+  title: "Zip Screen System",
+  description:
+    "Enhance comfort and energy efficiency with our premium Zip Screen systems – engineered to provide shade, privacy, and protection against heat, glare, and insects. Perfect for patios, balconies, and commercial façades.",
+  images: [
+    {
+      src: "/images/zipscreen/zipscreen (4).jpeg?height=320&width=500&text=Zip+Screen+1",
+      alt: "Zip Screen - Outdoor Shading System",
+    },
+    {
+      src: "/images/zipscreen/zipscreen (2).webp?height=320&width=500&text=Zip+Screen+2",
+      alt: "Zip Screen - Retractable Fabric Shade",
+    },
+    {
+      src: "/images/zipscreen/zipscreen (3).jpeg?height=320&width=500&text=Zip+Screen+3",
+      alt: "Zip Screen - Modern Exterior Design",
+    },
+  ],
+  features: [
+    "Wind-resistant fabric tension system",
+    "UV and glare reduction",
+    "Automated or manual control options",
+    "All-weather protection",
+  ],
+},{
+  title: "Motorized Shutters",
+  description:
+    "Combine aesthetics and functionality with our motorized shutter systems – offering superior privacy, ventilation control, and weather resilience. Ideal for residential façades, commercial fronts, and outdoor structures.",
+  images: [
+    {
+      src: "/images/shutter/shutter (1).jpg?height=320&width=500&text=Shutters+1",
+      alt: "Exterior Shutters - Aluminum Panels",
+    },
+    {
+      src: "/images/shutter/shutter (2).jpg?height=320&width=500&text=Shutters+2",
+      alt: "Adjustable Louver Shutters - Modern Design",
+    },
+    {
+      src: "/images/shutter/shutter (4).jpg?height=320&width=500&text=Shutters+3",
+      alt: "Automated Shutters - Outdoor Protection",
+    },
+  ],
+  features: [
+    "Adjustable louvers for airflow control",
+    "Durable aluminum or composite materials",
+    "Weather and corrosion resistant",
+    "Manual or motorized operation",
+  ],
+},{
+  title: "Bleachers",
+  description:
+    "Optimize audience capacity and venue flexibility with our bleacher systems – robust, safe, and space-efficient seating solutions ideal for auditoriums, stadiums, schools, and multipurpose halls.",
+  images: [
+    {
+      src: "/images/bleacher/bleachers (1).jpg?height=320&width=500&text=Bleachers+1",
+      alt: " Bleachers - Retracted",
+    },
+    {
+      src: "/images/bleacher/bleachers (2).jpg?height=320&width=500&text=Bleachers+2",
+      alt: "Bleachers - Extended Seating",
+    },
+    {
+      src: "/images/bleacher/bleachers (3).jpg?height=320&width=500&text=Bleachers+3",
+      alt: "Bleachers - Modular Design",
+    },
+  ],
+  features: [
+    "Retractable modular design",
+    "High load-bearing steel structure",
+    "Ergonomic seating comfort",
+    "Customizable finishes and configurations",
+  ],
+},
+
+
+
     
   ]
 
@@ -275,11 +388,11 @@ export default function ServicesPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-woodsmoke to-merlin text-white py-20">
+      <section className="bg-jumbo text-white py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6 text-quicksand">Our Services</h1>
-            <p className="text-xl text-gunsmoke leading-relaxed">
+            <p className="text-xl text-white leading-relaxed">
               We are your premier experts in customized roofing solutions and retractable structures. Whether you
               require elegant pergolas, modern polycarbonate roofs, stylish tensile structures, or robust metal sheds,
               we have you covered—quite literally.

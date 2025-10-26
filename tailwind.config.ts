@@ -55,17 +55,18 @@ const config: Config = {
         },
         // Custom Veridian Craft colors
         
-        quicksand: "#d0b182",      // replaced (was #b69d8a)
-        woodsmoke: "#151618",      // replaced (was #141419)
-        "soya-bean": "#9e6f4c",    // replaced (was #62574e)
-        merlin: "#22201e",         // replaced (was #3a332d)
-        gunsmoke: "#7c8484",       // unchanged
-        jumbo: "#7c7c84",          // unchanged
-        "cape-cod": "#cbccca",     // replaced (was #444c4c)
-        "mule-fawn": "#d18f48",    // unchanged
-        abbey: "#d2cabd",          // replaced (was #44444c)
-        "outer-space": "#151618",  // REPLACED was (#2c3434)
-        "white": "#e2e3e5"         // added
+        // Custom Veridian Craft colors - LIGHT THEME
+        quicksand: "#B68B4C",        // replaced (was #d0b182) - darker brown for better contrast
+        woodsmoke: "#2A3F72",        // replaced (was #f8f9fa) - light off-white background (from new palette)
+        "soya-bean": "#62574e",      // replaced (was #9e6f4c) - medium brown
+        merlin: "#ffffff",           // kept as pure white for cards
+        gunsmoke: "#73828e",         // replaced (was #4a5568) - mid cool-gray for primary text (from new palette)
+        jumbo: "#2A3F72",            // replaced (was #718096) - deeper cool-gray for secondary text (from new palette) 😎
+        "cape-cod": "#a99985",       // replaced (was #e2e8f0) - muted taupe for borders (from new palette)
+        "mule-fawn": "#d18f48",      // unchanged - signature accent brown
+        abbey: "#e8d7c4",            // replaced (was #f7fafc) - warm cream for subtle surfaces (from new palette)
+        "outer-space": "#eae6e2",    // replaced (was #f1f5f9) - light off-white for sections (from new palette)
+        "white": "#e2e3e5"           // kept as-is
       },
       borderRadius: {
         lg: "var(--radius)",

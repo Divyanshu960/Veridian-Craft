@@ -1,3 +1,9 @@
+/* === Google Fonts Imports === */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -11,46 +17,68 @@
   body {
     @apply bg-background text-foreground;
     font-family: "Inter", sans-serif;
+    background-color: var(--woodsmoke);
+    color: var(--gunsmoke);
+    font-family: var(--font-body);
+    line-height: 1.6;
   }
 
   h1, h2, h3, h4, h5, h6 {
     color: var(--quicksand);
   }
+  h1 {
+  font-family: 'Playfair Display', serif;
+  }
+
+    h2 {
+    font-family: 'Lato', sans-serif;
+  }
+
+  p {
+    font-family: 'Merriweather', serif;
+  }
 }
 
 /* Light Theme */
 :root {
-  --quicksand: #d0b182;
-  --woodsmoke: #151618;
-  --soya-bean: #9e6f4c;
-  --merlin: #22201e;
-  --gunsmoke: #7c8484;
-  --jumbo: #7c7c84;
-  --cape-cod: #cbccca;
-  --mule-fawn: #d18f48;
-  --abbey: #d2cabd;
-  --outer-space: #151618;
+  --quicksand: #d0b182;      /* unchanged – warm accent */
+--woodsmoke: #151618;      /* unchanged – deep background */
+--soya-bean: #9e6f4c;      /* unchanged – warm brown */
+--merlin: #22201e;         /* unchanged – dark neutral */
+--mule-fawn: #d18f48;      /* unchanged – primary accent */
+--outer-space: #151618;    /* unchanged */
+--gunsmoke: #73828e;       /* REPLACED – new mid cool-gray (was #7c8484) */
+--jumbo: #475e72;          /* REPLACED – deeper cool tone (was #7c7c84) */
+--cape-cod: #a99985;       /* REPLACED – soft taupe for borders (was #cbccca) */
+--abbey: #e8d7c4;          /* REPLACED – warm cream (was #d2cabd) */
 
-  --background: var(--woodsmoke);
-  --foreground: var(--gunsmoke);
-  --card: var(--outer-space);
+  --background: var(--woodsmoke);   /* #eae6e2 */
+  --card: var(--abbey);             /* #e8d7c4 ← NOW YOU SEE IT! */
+  --foreground: var(--gunsmoke);    /* #475e72 ← SHARPER TEXT */
+  --accent: var(--cape-cod);         /* #a99985 ← BUTTONS POP */
+  --input: var(--cape-cod);
+  --border: var(--jumbo);
+  --muted-foreground: var(--jumbo);
   --card-foreground: var(--gunsmoke);
-  --popover: var(--outer-space);
+  --secondary-foreground: var(--gunsmoke);
   --popover-foreground: var(--gunsmoke);
+  --popover: var(--outer-space);
   --primary: var(--mule-fawn);
   --primary-foreground: #ffffff;
   --secondary: var(--merlin);
-  --secondary-foreground: var(--gunsmoke);
   --muted: var(--abbey);
-  --muted-foreground: var(--jumbo);
-  --accent: var(--quicksand);
   --accent-foreground: var(--woodsmoke);
   --destructive: #dc2626;
   --destructive-foreground: #ffffff;
-  --border: var(--cape-cod);
-  --input: var(--cape-cod);
   --ring: var(--quicksand);
   --radius: 0.5rem;
+
+/* Font families */
+  --font-title: "Playfair Display", serif;
+  --font-subtitle: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  --font-description: "Merriweather", Georgia, serif;
+  --font-body: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+
 }
 
 /* Dark Mode */

@@ -102,17 +102,17 @@ export default function FAQPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-woodsmoke to-merlin text-white py-20">
+      <section className="bg-jumbo text-white py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-3 mb-6">
               <HelpCircle className="h-12 w-12 text-quicksand" />
               <h1 className="text-4xl lg:text-5xl font-bold text-quicksand">Frequently Asked Questions</h1>
             </div>
-            <p className="text-xl text-gunsmoke leading-relaxed mb-4">
+            <p className="text-xl text-white leading-relaxed mb-4">
               Specialists in Custom Retractable Roofing, Pergolas, and Tensile Structures
             </p>
-            <p className="text-lg text-gunsmoke">
+            <p className="text-lg text-white">
               Find answers to common questions about our retractable roofing systems, installation process, and
               services.
             </p>
@@ -205,7 +205,7 @@ export default function FAQPage() {
       <section className="py-20 bg-merlin">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-quicksand">Ready to Transform Your Space?</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-mule-fawn">Ready to Transform Your Space?</h2>
             <p className="text-xl text-gunsmoke mb-8">
               We look forward to crafting your outdoor vision with our innovative retractable solutions.
             </p>

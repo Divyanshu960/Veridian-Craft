@@ -11,11 +11,11 @@ export default function ContactPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-woodsmoke to-merlin text-white py-20">
+      <section className="bg-jumbo text-white py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6 text-quicksand">Contact Us</h1>
-            <p className="text-xl text-gunsmoke leading-relaxed">
+            <p className="text-xl text-white leading-relaxed">
               Ready to transform your space? Get in touch with our team of experts to discuss your retractable roofing
               and seating solutions.
             </p>
@@ -31,7 +31,7 @@ export default function ContactPage() {
               {/* Contact Information */}
               <Card className="shadow-lg bg-merlin border-cape-cod">
                 <CardHeader>
-                  <CardTitle className="text-2xl font-bold text-quicksand">Get In Touch</CardTitle>
+                  <CardTitle className="text-2xl font-bold text-mule-fawn">Get In Touch</CardTitle>
                   <p className="text-gunsmoke">Reach out to us directly for immediate assistance</p>
                 </CardHeader>
                 <CardContent className="space-y-6">
@@ -54,7 +54,7 @@ export default function ContactPage() {
                         </p>
                         <p className="text-gunsmoke">
                           <a href="tel:+919211323080" className="hover:text-quicksand transition-colors">
-                            9211323080
+                            92113 23080
                           </a>
                         </p>
                       </div>
@@ -107,7 +107,7 @@ export default function ContactPage() {
               {/* Social Media */}
               <Card className="shadow-lg bg-merlin border-cape-cod">
                 <CardHeader>
-                  <CardTitle className="text-2xl font-bold text-quicksand">Follow Us on Our Socials</CardTitle>
+                  <CardTitle className="text-2xl font-bold text-mule-fawn">Follow Us on Our Socials</CardTitle>
                   <p className="text-gunsmoke">Stay updated with our latest projects and innovations</p>
                 </CardHeader>
                 <CardContent className="space-y-6">
@@ -221,7 +221,7 @@ export default function ContactPage() {
               <CardContent className="p-8">
                 <div className="flex items-center justify-center gap-4 mb-4">
                   <CheckCircle className="h-6 w-6 text-mule-fawn" />
-                  <h3 className="text-xl font-semibold text-quicksand">Quick Response Guarantee</h3>
+                  <h3 className="text-xl font-semibold text-mule-fawn">Quick Response Guarantee</h3>
                 </div>
                 <p className="text-gunsmoke text-center">
                   We typically respond to all inquiries within 2-4 hours during business hours. For urgent projects,
@@ -233,36 +233,61 @@ export default function ContactPage() {
             {/* Services Overview */}
             <Card className="shadow-lg bg-merlin border-cape-cod">
               <CardHeader>
-                <CardTitle className="text-2xl font-bold text-quicksand text-center">Our Expertise</CardTitle>
+                <CardTitle className="text-2xl font-bold text-mule-fawn text-center">Our Expertise</CardTitle>
                 <p className="text-gunsmoke text-center">Specialized solutions for every need</p>
               </CardHeader>
               <CardContent>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                   {[
                     {
-                      title: "Soft Top Fabric Roof",
-                      description: "Flexible retractable fabric solutions",
-                    },
-                    {
-                      title: "Hard Top Roofs",
-                      description: "Durable polycarbonate roofing systems",
-                    },
-                    {
-                      title: "Retractable Pergola",
-                      description: "Stylish adjustable shade structures",
-                    },
-                    {
-                      title: "Tensile Structures",
-                      description: "Custom architectural membrane designs",
-                    },
-                    {
-                      title: "Sports Sheds",
-                      description: "Robust metal roofing solutions",
-                    },
-                    {
-                      title: "Skylight Systems",
-                      description: "Natural lighting enhancement solutions",
-                    },
+  title: "Soft Top Fabric Roof",
+  description: "Flexible retractable fabric roofing solutions",
+},
+{
+  title: "Hard Top Roof",
+  description: "Durable and weather-resistant polycarbonate roofing systems",
+},
+{
+  title: "Retractable Pergola",
+  description: "Elegant adjustable shade and shelter structures",
+},
+{
+  title: "Retractable Sitting System",
+  description: "Space-saving modular seating for events and venues",
+},
+{
+  title: "Retractable Gates",
+  description: "Secure, smooth-operating gate systems for versatile access control",
+},
+{
+  title: "Tensile Structures",
+  description: "Architectural membrane designs for striking, lightweight coverings",
+},
+{
+  title: "Shed",
+  description: "Custom-built sheds for storage, workshops, or sports applications",
+},
+{
+  title: "Bleachers",
+  description: "Comfortable and durable tiered seating solutions for spectators",
+},
+{
+  title: "Skylights",
+  description: "Natural daylight systems to enhance indoor brightness and ambiance",
+},
+{
+  title: "Fixed Pergola",
+  description: "Permanent outdoor shading structures with sleek modern design",
+},
+{
+  title: "Zip Screen",
+  description: "Motorized outdoor blinds for wind and sun protection",
+},
+{
+  title: "Shutters",
+  description: "Stylish adjustable window and door coverings for privacy and ventilation",
+},
+
                   ].map((service, index) => (
                     <div key={index} className="text-center p-4 bg-outer-space rounded-lg border border-cape-cod">
                       <h4 className="font-semibold text-quicksand mb-2">{service.title}</h4>
@@ -279,7 +304,7 @@ export default function ContactPage() {
       {/* Call to Action Section */}
       <section className="py-20 bg-merlin">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-quicksand">Ready to Get Started?</h2>
+          <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-mule-fawn">Ready to Get Started?</h2>
           <p className="text-xl text-gunsmoke mb-8 max-w-2xl mx-auto">
             Contact us today to discuss your project requirements and get a customized solution that meets your specific
             needs.
